@@ -1,0 +1,46 @@
+{
+  "commit": {
+    "author": "Alexey Ignatiev <alexey.ignatiev@monash.edu>",
+    "author_date": "2026-07-19T15:40:44+01:00",
+    "committer": "Alexey Ignatiev <alexey.ignatiev@monash.edu>",
+    "committer_date": "2026-07-19T15:40:44+01:00",
+    "parent": "bf260ad2e778fb4391eb02cecde5b121f67e00c0",
+    "sha1": "7abb1d6fdafe1d75fe3e5cdfb48f7e07a8a76efd",
+    "subject": "Bumped version.",
+    "tree": "e41fd9f5e69933a91b0daf856a922f5595cb1583"
+  },
+  "files": {
+    "cardenc/card.hh": {
+      "bytes": 2468,
+      "git_blob_sha1": "17533a00e87ce169c56a5652df2a29932f320fef",
+      "sha256": "815d15147b034d3c8c93978ed90d26f43d45e0df307f63545f74cb9f5e10a2d5"
+    },
+    "cardenc/clset.hh": {
+      "bytes": 1874,
+      "git_blob_sha1": "a6c4d8896b274c7380f9236dc93f9c7f5e9d2239",
+      "sha256": "cfd9acc8cca431c0681a06891ff53083a4d1838a3c0bfdaa1cbc3c050e1e7b31"
+    },
+    "cardenc/common.hh": {
+      "bytes": 1303,
+      "git_blob_sha1": "24ddb92275555892df8e53d2b2c78b8e65303e76",
+      "sha256": "2fb65ee5bb58158d1464f62b596b3ac66b6631850ae20fec0ad5e75008480619"
+    },
+    "cardenc/mto.hh": {
+      "bytes": 11355,
+      "git_blob_sha1": "eb52038ee5a6708555078e3836415d16c07a352e",
+      "sha256": "fb5b7cc56c2ea3bc02c0a9004e4a2915c1a3440e9e749e369da78bef14b82626"
+    },
+    "pysat/__init__.py": {
+      "bytes": 680,
+      "git_blob_sha1": "8a974a611052b5e1f158d3d73abcb17818c10bb9",
+      "sha256": "e334843c05f588a429155df0b06fd5562762b9540de22f64d90ed7fb6845416c"
+    },
+    "pysat/card.py": {
+      "bytes": 30066,
+      "git_blob_sha1": "3b6e055a206970ee5efde0fc8768d9a8d139c49e",
+      "sha256": "adabf7fedfe60b36cbc3c48075770e87e3cd6c5b5a013552009ce96f282a890e"
+    }
+  },
+  "repository": "https://github.com/pysathq/pysat.git",
+  "version_at_commit": "1.9.dev7"
+}

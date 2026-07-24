@@ -1,0 +1,30 @@
+{
+  "canonical_block": [
+    0,
+    1,
+    4,
+    6,
+    8,
+    10
+  ],
+  "clauses": 356472,
+  "cnf_bytes": 7067589,
+  "cnf_sha256": "4aeada9818cf66895bc8dc7ffb341d4edba1f0ffc997a62e40c50d360161d96d",
+  "primary_variables": 924,
+  "root": 1,
+  "section_clause_counts": {
+    "base": 356407,
+    "exact_block_count": 57972,
+    "pair_atmost": 141960,
+    "quad_coverage": 495,
+    "root_units": 65,
+    "triple_atmost": 155980
+  },
+  "type_histogram": {
+    "0": 64,
+    "1": 480,
+    "2": 360,
+    "3": 20
+  },
+  "variables": 122519
+}

@@ -1,0 +1,14 @@
+date: 2026-07-24
+command: C1264_TOOLCHAIN_BUILD_DIR=/tmp/c1264-toolchain-test ./toolchain/build.sh
+result: TOOLCHAIN VERIFIED
+lrat-check: /tmp/c1264-toolchain-test/lrat-check
+cake_lpr: /tmp/c1264-toolchain-test/cake_lpr
+drat-trim: /tmp/c1264-toolchain-test/drat-trim/drat-trim
+cadical: /tmp/c1264-toolchain-test/cadical/build/cadical
+cadical_version: 1.7.3
+drat_trim_revision: 2e3b2dc0ecf938addbd779d42877b6ed69d9a985
+cadical_revision: 38e073b389a877b0a0d3c91136d2443ab95fdeba
+fresh_lrat_check_sha256: ac89c8365eaf6548b6237e6e3ff630373582e60854695491a99108df3a7db0e5
+fresh_cake_lpr_sha256: 9d26b48cb92a860568edea1b7febcebe98e265cc0e74e8c55faa0fac9e63eda7
+fresh_drat_trim_sha256: 42a69f9a17bcd58001676abf02d58992bd0ede58410a467dda07a350fec498c9
+fresh_cadical_sha256: d8e258291543214a1b741841345cd8887f5a2f275d2241ac4d50e80dd5d5fbfb

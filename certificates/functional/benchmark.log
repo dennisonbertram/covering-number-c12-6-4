@@ -1,0 +1,30 @@
+Functional-gate no-proof benchmarks
+Date: 2026-07-24
+Solver: /tmp/cadical-1.7.3/build/cadical (CaDiCaL 1.7.3)
+Priority: nice 19
+Limit: GNU timeout, SIGINT at 120 seconds, SIGKILL five seconds later
+
+Root 0 command:
+/usr/bin/time -p nice -n 19 gtimeout --signal=INT --kill-after=5 120 \
+  /tmp/cadical-1.7.3/build/cadical -q gate_root0.cnf
+
+Outcome:
+exit_status 124
+result NO_RESULT_WITHIN_LIMIT
+real 120.18
+user 44.67
+sys 1.16
+
+Root 1 command:
+/usr/bin/time -p nice -n 19 gtimeout --signal=INT --kill-after=5 120 \
+  /tmp/cadical-1.7.3/build/cadical -q gate_root1.cnf
+
+Outcome:
+exit_status 124
+result NO_RESULT_WITHIN_LIMIT
+real 120.04
+user 37.90
+sys 1.07
+
+These bounded timing runs produced no proof file and establish neither SAT
+nor UNSAT.  The separately running gate_root*.bdrat jobs were not modified.

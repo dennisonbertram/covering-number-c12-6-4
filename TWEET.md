@@ -1,0 +1,1 @@
+Computer-assisted proof: C(12,6,4)=41, closing the 40–41 gap. A 40-cover would force a perfect matching; all 266 canonical pair-links are ruled out by independently replayed LRAT proofs. Note + certificates: https://github.com/dennisonbertram/covering-number-c12-6-4

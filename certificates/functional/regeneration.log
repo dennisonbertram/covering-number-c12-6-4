@@ -1,0 +1,103 @@
+$ python3 generate_gate_roots.py --root 0 --output /tmp/c12_gate_publish_repro/gate_root0.cnf --metadata /tmp/c12_gate_publish_repro/gate_root0.json
+{
+  "base_clauses": 1044768,
+  "canonical_block": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "clauses": 1044769,
+  "cnf_bytes": 20583663,
+  "cnf_sha256": "f9c410e41c441be0a6dd5b08e6d1bb8f29f2afb9bb74ef9388f264f3d1187829",
+  "format": "c1264-functional-prefix-v1",
+  "gate_count": 270144,
+  "primary_variables": 924,
+  "root": 0,
+  "sections_zero_based_half_open": {
+    "all_pair_atmost": [
+      150533,
+      694913
+    ],
+    "all_triple_atmost": [
+      694913,
+      1044273
+    ],
+    "exactly_40_blocks": [
+      0,
+      150533
+    ],
+    "quad_coverage": [
+      1044273,
+      1044768
+    ],
+    "root_units": [
+      1044768,
+      1044769
+    ]
+  },
+  "type_histogram": {
+    "0": 64,
+    "1": 480,
+    "2": 360,
+    "3": 20
+  },
+  "variables": 271068
+}
+{
+  "base_clauses": 1044768,
+  "canonical_block": [
+    0,
+    1,
+    4,
+    6,
+    8,
+    10
+  ],
+  "clauses": 1044833,
+  "cnf_bytes": 20584111,
+  "cnf_sha256": "b9a6d72b7ba836419d36e51dbc1e6c46fa58fcde3e0712204cb257f5e8205143",
+  "format": "c1264-functional-prefix-v1",
+  "gate_count": 270144,
+  "primary_variables": 924,
+  "root": 1,
+  "sections_zero_based_half_open": {
+    "all_pair_atmost": [
+      150533,
+      694913
+    ],
+    "all_triple_atmost": [
+      694913,
+      1044273
+    ],
+    "exactly_40_blocks": [
+      0,
+      150533
+    ],
+    "quad_coverage": [
+      1044273,
+      1044768
+    ],
+    "root_units": [
+      1044768,
+      1044833
+    ]
+  },
+  "type_histogram": {
+    "0": 64,
+    "1": 480,
+    "2": 360,
+    "3": 20
+  },
+  "variables": 271068
+}
+root0_cnf_cmp_exit 0
+root0_json_cmp_exit 0
+root1_cnf_cmp_exit 0
+root1_json_cmp_exit 0
+f9c410e41c441be0a6dd5b08e6d1bb8f29f2afb9bb74ef9388f264f3d1187829  /tmp/c12_gate_publish_repro/gate_root0.cnf
+6b60994f341b00af02edb3d31f2a6e877aa2dccc3333133f713b04daa5caf833  /tmp/c12_gate_publish_repro/gate_root0.json
+b9a6d72b7ba836419d36e51dbc1e6c46fa58fcde3e0712204cb257f5e8205143  /tmp/c12_gate_publish_repro/gate_root1.cnf
+70297f765b243f3bcda788b652af8d29f1431d27796e3f8225be2d296224b3c3  /tmp/c12_gate_publish_repro/gate_root1.json

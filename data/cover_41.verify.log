@@ -1,0 +1,8 @@
+VERIFIED 41-block C(12,6,4) cover
+sha256 0f701d9c281ef611bb4c2d9366839aee205d462bdc9cf5dbd774d9a6701e72d1
+blocks 41 distinct
+t=1 subsets=12 histogram=20:6,21:6
+t=2 subsets=66 histogram=9:45,10:21
+t=3 subsets=220 histogram=3:60,4:160
+t=4 subsets=495 histogram=1:405,2:75,4:15
+covered_4_subsets 495/495

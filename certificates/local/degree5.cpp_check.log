@@ -1,0 +1,10 @@
+VERIFIED UNSAT degree-5 case
+triple_families 1837620
+vertex_covering_families 411300
+false_cache_1 2441
+false_cache_2 594031
+false_cache_3 2474296
+false_cache_4 408420
+real 8.67
+user 4.40
+sys 0.09

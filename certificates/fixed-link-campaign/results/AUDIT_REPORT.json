@@ -1,0 +1,14 @@
+{
+  "admissible_covers": 119700,
+  "compact_base_sha256": "637d9326388f77f933f3d066cd762d8c0ac4b2df0d2260d688e031d55959e7f0",
+  "group_order": 768,
+  "logical_sha256": "1d9ae10ba0f624ee76eaed1ce2c189314ec8218052dea4da81c9509b39790f54",
+  "manifest_sha256": "d8b6d765c5b9f237633bd879f18b07daa98cfa1ed1b1f5d264d99e279a48fcd2",
+  "model_version": "c12-fixed-link-classification-v1",
+  "nine_block_covers": 359100,
+  "no_eight_cover": true,
+  "orbit_union": 119700,
+  "orbits": 266,
+  "representatives_sha256": "369a844c4590d435fc24f82424a0775d51ce326d243aaf740d025c52c81d652b",
+  "roots_checked": 266
+}

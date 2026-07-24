@@ -1,0 +1,63 @@
+{
+  "enumeration": {
+    "cover_count": 359100,
+    "cover_sha256": "52951ea29f8e249a739a6d4eef31d874e552f789cbe0f99d93722bd7437547d9",
+    "degree_histogram": {
+      "3,3,3,3,4,4,4,4,4,4": 359100
+    }
+  },
+  "fixed_heavy": {
+    "anchor_partitions": 280,
+    "consistent_option_tuples": 10090,
+    "distinct_fixed_heavy_covers": 1710,
+    "option_tuples": 280000
+  },
+  "global_cases": {
+    "base_clauses": 356407,
+    "base_sha256": "637d9326388f77f933f3d066cd762d8c0ac4b2df0d2260d688e031d55959e7f0",
+    "base_variables": 122519,
+    "case_clauses": 356617,
+    "case_count": 266,
+    "case_hash_manifest_sha256": "3352f4cfa1009d09fda4e7af6c5a06b4fd6821fd5437f7a707b357d8c31dc8be",
+    "case_variables": 122519,
+    "negative_units_per_case": 201,
+    "positive_units_per_case": 9,
+    "units_per_case": 210
+  },
+  "orbits": {
+    "admissible_count": 119700,
+    "generator_count": 8,
+    "group_order": 768,
+    "orbit_count": 266,
+    "orbit_size_histogram": {
+      "12": 1,
+      "128": 2,
+      "16": 1,
+      "192": 60,
+      "24": 5,
+      "256": 1,
+      "384": 37,
+      "48": 12,
+      "768": 117,
+      "96": 30
+    },
+    "orbit_size_sum": 119700,
+    "stabilizer_order_histogram": {
+      "1": 117,
+      "16": 12,
+      "2": 37,
+      "3": 1,
+      "32": 5,
+      "4": 60,
+      "48": 1,
+      "6": 2,
+      "64": 1,
+      "8": 30
+    }
+  },
+  "representatives": {
+    "count": 266,
+    "sha256": "369a844c4590d435fc24f82424a0775d51ce326d243aaf740d025c52c81d652b"
+  },
+  "result": "PASS"
+}

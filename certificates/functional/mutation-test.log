@@ -1,0 +1,4 @@
+FUNCTIONAL ROOT AUDIT FAILED: /private/tmp/c12_gate_mutation_test/gate_root0.cnf: first clause mismatch at 0: (-925, 2) != (-925, 1)
+real 63.78
+user 16.60
+sys 0.67

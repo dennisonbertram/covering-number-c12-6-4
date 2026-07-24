@@ -1,0 +1,42 @@
+{
+  "mathematics": {
+    "orbit_sizes": {
+      "0": 64,
+      "1": 480
+    },
+    "root0_profiles": 210,
+    "root1_profiles": 11,
+    "type_histogram": {
+      "0": 64,
+      "1": 480,
+      "2": 360,
+      "3": 20
+    },
+    "type_profiles": 221
+  },
+  "result": "FUNCTIONAL ROOT AUDIT PASSED",
+  "roots": [
+    {
+      "base_sha256": "fc7e5de081b3805cd8c77f27c581b6fd6ab3a97b92a2928c3d60fafd2fb76e73",
+      "bytes": 20583663,
+      "clauses": 1044769,
+      "gate_count": 270144,
+      "root": 0,
+      "sha256": "f9c410e41c441be0a6dd5b08e6d1bb8f29f2afb9bb74ef9388f264f3d1187829",
+      "variables": 271068
+    },
+    {
+      "base_sha256": "fc7e5de081b3805cd8c77f27c581b6fd6ab3a97b92a2928c3d60fafd2fb76e73",
+      "bytes": 20584111,
+      "clauses": 1044833,
+      "gate_count": 270144,
+      "root": 1,
+      "sha256": "b9a6d72b7ba836419d36e51dbc1e6c46fa58fcde3e0712204cb257f5e8205143",
+      "variables": 271068
+    }
+  ],
+  "semantic_argument": "Every gate was truth-table checked as an equivalence; prefix induction gives a unique auxiliary extension."
+}
+real 134.27
+user 33.61
+sys 1.45

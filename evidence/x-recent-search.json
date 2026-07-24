@@ -1,0 +1,68 @@
+{
+  "api": "X API v2 recent counts and recent search",
+  "end_time": "2026-07-24T14:53:00Z",
+  "full_archive_attempt": {
+    "count": {
+      "errorKind": "tier_unavailable",
+      "message": "Full-archive search requires Pro or Enterprise on this access tier.",
+      "status": 403
+    },
+    "query": "\"C(12,6,4)\" -is:retweet",
+    "search": {
+      "errorKind": "tier_unavailable",
+      "message": "Full-archive search requires Pro or Enterprise on this access tier.",
+      "status": 403
+    }
+  },
+  "queries": [
+    {
+      "posts": [],
+      "query": "\"C(12,6,4)\" -is:retweet",
+      "result_count": 0,
+      "total_tweet_count": 0
+    },
+    {
+      "posts": [],
+      "query": "\"C(12, 6, 4)\" -is:retweet",
+      "result_count": 0,
+      "total_tweet_count": 0
+    },
+    {
+      "posts": [],
+      "query": "\"covering number\" \"12,6,4\" -is:retweet",
+      "result_count": 0,
+      "total_tweet_count": 0
+    },
+    {
+      "posts": [],
+      "query": "\"covering design\" \"12,6,4\" -is:retweet",
+      "result_count": 0,
+      "total_tweet_count": 0
+    },
+    {
+      "posts": [],
+      "query": "\"(12,6,4)\" (covering OR cover) -is:retweet",
+      "result_count": 0,
+      "total_tweet_count": 0
+    },
+    {
+      "posts": [],
+      "query": "\"12, 6, 4\" (covering OR cover) -is:retweet",
+      "result_count": 0,
+      "total_tweet_count": 0
+    },
+    {
+      "posts": [],
+      "query": "C1264 (covering OR design) -is:retweet",
+      "result_count": 0,
+      "total_tweet_count": 0
+    },
+    {
+      "posts": [],
+      "query": "\"La Jolla Covering Repository\" -is:retweet",
+      "result_count": 0,
+      "total_tweet_count": 0
+    }
+  ],
+  "start_time": "2026-07-17T15:00:00Z"
+}

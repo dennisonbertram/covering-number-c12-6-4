@@ -1,0 +1,14 @@
+{
+  "name": "covering-number-c12-6-4-proof",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:proof": "node scripts/build_proof.mjs"
+  },
+  "dependencies": {
+    "katex": "0.18.1",
+    "marked": "18.0.7",
+    "playwright-core": "1.61.1"
+  }
+}

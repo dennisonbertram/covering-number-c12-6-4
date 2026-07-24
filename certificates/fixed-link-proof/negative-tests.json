@@ -1,0 +1,28 @@
+{
+  "failed": 0,
+  "logical_sha256": "2d59acd77426edb768e1b7798a7bccf79817a4c37d597b76d08a5c5c1318f4ab",
+  "model_version": "c12-fixed-link-public-negative-tests-v1",
+  "passed": 19,
+  "tests": [
+    "optimized_python",
+    "duplicate_json_key",
+    "nonfinite_json",
+    "path_traversal",
+    "absolute_path",
+    "symlink_artifact",
+    "caller_symlink_path",
+    "missing_case",
+    "extra_case",
+    "receipt_self_hash",
+    "unindexed_file",
+    "unbound_checker_binary",
+    "unpinned_classification_component",
+    "ambiguous_classification_marker",
+    "archive_builder_symlink_parent",
+    "archive_builder_symlink_artifact_parent",
+    "nonregular_tar_member",
+    "compressed_member_hash",
+    "skip_mode_nonzero"
+  ],
+  "verifier_sha256": "4ba2faea44b9a5a11edce21edc208c6927b9f1c157fd35a5dc26f19e23512974"
+}

@@ -1,0 +1,13 @@
+AUDIT VERIFIED
+semantic_primary_variables 210
+triples 84
+quads 126
+fixed_triple 012
+selected_triples exactly_5
+selected_quads exactly_4
+triple_union_vertices 9
+covered_edges 36
+auxiliary_variables 6606
+variables 6816
+clauses 24835
+cnf_sha256 bcb0b4138a34e0fc8b795f24d18d97e98f9d6a8e9f5b90c26e51f9e548a5ba32

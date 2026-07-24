@@ -1,0 +1,47 @@
+{
+  "base_clauses": 1044768,
+  "canonical_block": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "clauses": 1044769,
+  "cnf_bytes": 20583663,
+  "cnf_sha256": "f9c410e41c441be0a6dd5b08e6d1bb8f29f2afb9bb74ef9388f264f3d1187829",
+  "format": "c1264-functional-prefix-v1",
+  "gate_count": 270144,
+  "primary_variables": 924,
+  "root": 0,
+  "sections_zero_based_half_open": {
+    "all_pair_atmost": [
+      150533,
+      694913
+    ],
+    "all_triple_atmost": [
+      694913,
+      1044273
+    ],
+    "exactly_40_blocks": [
+      0,
+      150533
+    ],
+    "quad_coverage": [
+      1044273,
+      1044768
+    ],
+    "root_units": [
+      1044768,
+      1044769
+    ]
+  },
+  "type_histogram": {
+    "0": 64,
+    "1": 480,
+    "2": 360,
+    "3": 20
+  },
+  "variables": 271068
+}

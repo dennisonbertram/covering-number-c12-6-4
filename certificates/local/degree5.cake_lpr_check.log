@@ -1,0 +1,9 @@
+checker: cake_lpr
+upstream: https://github.com/tanyongkiam/cake_lpr
+revision: a36874a8b750b43fe4b385b8ddbf5b033e46a3fa
+binary_sha256: d5f732658ee98e98a400318de21bd4cb08bcf147fa6d166f0230a507d994db96
+command: env CML_HEAP_SIZE=8192 CML_STACK_SIZE=2048 cake_lpr degree5.cnf degree5.lrat
+s VERIFIED UNSAT
+real_seconds: 74.80
+user_seconds: 16.23
+sys_seconds: 1.70

@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "description": "Explicit 41-block covering witness and verifier",
+      "id": "upper-bound-witness",
+      "manifest": "data/SHA256SUMS",
+      "manifest_sha256": "9796d7f681c7d9df3aad8f76fecb271e31a476438ca83e52d9c633a598aa3555",
+      "required_when_complete": [
+        "data/cover_41.txt",
+        "scripts/verify_cover_41.py"
+      ],
+      "status": "complete"
+    },
+    {
+      "description": "Local C(10,4,2) degree lemma and independently replayed certificate",
+      "id": "local-degree-lemma",
+      "manifest": "certificates/local/SHA256SUMS",
+      "manifest_sha256": "af319e350ed0249454005a1b16cf8e395c6d5b02f8afded80cc49fb09d86d7fc",
+      "required_when_complete": [
+        "certificates/local/audit_degree5_cnf.py",
+        "certificates/local/check_c1042_degree5.cpp",
+        "certificates/local/degree5.cnf",
+        "certificates/local/degree5.lrat.zst"
+      ],
+      "status": "complete"
+    },
+    {
+      "description": "Independent functional-gate reconstruction of the global reduction",
+      "id": "functional-global-reduction",
+      "manifest": "certificates/functional/SHA256SUMS",
+      "manifest_sha256": "271bfe94565903ea60056425689f18b66fb2215fd8f2306924d9c7734dc6d2c8",
+      "required_when_complete": [
+        "certificates/functional/audit_gate_roots.py",
+        "certificates/functional/gate_root0.cnf",
+        "certificates/functional/gate_root1.cnf"
+      ],
+      "status": "complete"
+    },
+    {
+      "description": "Independent semantic and byte-level compact cardinality audit",
+      "id": "compact-encoder-audit",
+      "manifest": "certificates/compact-encoder-audit/SHA256SUMS",
+      "manifest_sha256": "a032d5dbfd560677ec3e497847ecc1877fe392b1c59eaf348d4558fd10640c75",
+      "required_when_complete": [
+        "certificates/compact-encoder-audit/verify_frozen_audit.py",
+        "certificates/compact-encoder-audit/results/reconstructed_global_base.cnf"
+      ],
+      "status": "complete"
+    },
+    {
+      "description": "Independent byte reconstruction of all refined compact leaf extensions",
+      "id": "compact-leaf-extension-audit",
+      "manifest": "certificates/compact-leaf-extension-audit/SHA256SUMS",
+      "manifest_sha256": "8ab2826ec3e250aeb9c62b403b5f8282ecb19adb691b93738a62c920956d0a03",
+      "required_when_complete": [
+        "certificates/compact-leaf-extension-audit/audit_leaf_extensions.py",
+        "certificates/compact-leaf-extension-audit/results/AUDIT_REPORT.json"
+      ],
+      "status": "complete"
+    },
+    {
+      "description": "Pinned DRAT and LRAT checker sources and build recipe",
+      "id": "checker-toolchain",
+      "manifest": "toolchain/SHA256SUMS",
+      "manifest_sha256": "83bd9786c6d48ae881305e0c5678ebc55faf33d09a9c3d6d8634e4a8e844de25",
+      "required_when_complete": [
+        "toolchain/build-replay.sh",
+        "toolchain/build.sh",
+        "toolchain/lrat-check.c",
+        "toolchain/cake_lpr/cake_lpr_arm8.S"
+      ],
+      "status": "complete"
+    },
+    {
+      "description": "Independent classification of all admissible fixed-pair links into 266 matching-stabilizer orbits",
+      "id": "fixed-link-classification",
+      "manifest": "certificates/fixed-link-classification/SHA256SUMS",
+      "manifest_sha256": "a4ce0d022be620df1656d9bee71b4460b20909a7eb0fba9c4d4b18d4879c90c3",
+      "required_when_complete": [
+        "certificates/fixed-link-classification/canonical_enum.cpp",
+        "certificates/fixed-link-classification/verify_frozen_classification.py",
+        "certificates/fixed-link-classification/results/AUDIT_REPORT.json"
+      ],
+      "status": "complete"
+    },
+    {
+      "description": "Portable 359100/119700/266 fixed-link enumeration, roots, and independent audit",
+      "id": "fixed-link-campaign",
+      "manifest": "certificates/fixed-link-campaign/SHA256SUMS",
+      "manifest_sha256": "630195ebb0491b121425ebae6776ff2f30025b3d52b6af6a4a35fae8ec5e3f10",
+      "required_when_complete": [
+        "certificates/fixed-link-campaign/generate_fixed_link_classification.py",
+        "certificates/fixed-link-campaign/audit_fixed_link_classification.py",
+        "certificates/fixed-link-campaign/link_representatives.txt",
+        "certificates/fixed-link-campaign/manifest.json",
+        "certificates/fixed-link-campaign/results/VALIDATION_REPORT.json"
+      ],
+      "status": "complete"
+    },
+    {
+      "description": "All 266 fixed-link UNSAT receipts, deterministic release-asset indexes, and dual-checker public replay",
+      "id": "fixed-link-proof",
+      "manifest": "certificates/fixed-link-proof/SHA256SUMS",
+      "manifest_sha256": "45434e4d2cd6da6c6f397810fe2b08d2d8a1725601c3c2c88dae50268965a416",
+      "required_when_complete": [
+        "certificates/fixed-link-proof/aggregate.json",
+        "certificates/fixed-link-proof/release-assets.json",
+        "certificates/fixed-link-proof/verify_public_release.py",
+        "certificates/fixed-link-proof/verify_structural.py",
+        "certificates/fixed-link-proof/negative-tests.json"
+      ],
+      "status": "complete"
+    }
+  ],
+  "release_state": "complete",
+  "schema_version": 1
+}

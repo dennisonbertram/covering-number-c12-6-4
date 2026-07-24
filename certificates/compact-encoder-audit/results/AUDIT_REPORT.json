@@ -1,0 +1,61 @@
+{
+  "artifact_format": "portable-summary-v1",
+  "claim": "Pure-Python source transcription reproduces every production clause and auxiliary identifier byte-for-byte, and all small existential semantics tests pass.",
+  "official_source_comparison": {
+    "clauses_compared": 123220,
+    "original_compiled_adapter_sha256": "7ea0f285b6a2b5c3771ccbf5ddad42e1fd1898bc02158f13bce1b4599e4d420b",
+    "production_equals_section": {
+      "clauses": 57972,
+      "sha256": "9a90ad6ce85edc53f9639b077534cfede27971974451b4676e414fbb0ad1ae9b",
+      "top_after": 10363
+    },
+    "result": "byte-identical to the official C++ source implementation",
+    "vector_manifest_sha256": "f3d5fa319a43347b79b471aa646d62a2ccd1569fdda4e84de4e228b35bb61eb7",
+    "vectors_checked": 115
+  },
+  "original_run": {
+    "original_report_sha256": "f24ae7bd8028a100625373f0f7a5f6ab39b65d5026555ae1b8917c72a833701a",
+    "result": "PASS"
+  },
+  "production_comparison": {
+    "body_sha256": "6a1a2eb2843a4ddcf9138c5a85aaeccd2950b3e099e0ab8a26ce9fc815ab0cc5",
+    "byte_for_byte_equal": true,
+    "full_sha256": "637d9326388f77f933f3d066cd762d8c0ac4b2df0d2260d688e031d55959e7f0",
+    "mutation_detected_at_exact_offset": true
+  },
+  "reconstruction": {
+    "auxiliary_variables": 121595,
+    "bytes": 7067135,
+    "clauses": 356407,
+    "constraint_boundaries_canonical_sha256": "e8faba67dca00bd9fd889996c93667ad2742409bb4619d3c9d4352ce365471d8",
+    "constraint_boundaries_file_sha256": "00a99825b80170c154231233705f3e2a67d54dc119ab11300527291f25abd239",
+    "primary_variables": 924,
+    "section_counts": [
+      57972,
+      141960,
+      155980,
+      495
+    ],
+    "section_sha256": [
+      "9a90ad6ce85edc53f9639b077534cfede27971974451b4676e414fbb0ad1ae9b",
+      "2d300e47472c3aa8340555f1ffa0eb0abf7f22c4563fb18baaf43eeeb5362b40",
+      "bd56975a519fed6bce06eb8159f02417051c12b4f3a1fb61babf6e494153386c",
+      "381d8e308ae3cc608ab74288477f1506c882b6af2eb2b0be891f94bb44612538"
+    ],
+    "variables": 122519
+  },
+  "result": "PASS",
+  "small_semantics": {
+    "clause_test_vector_sha256": "4593235969317bb0f45f657a38cea53c5753cffcebb713adddee3d3cde36e7e4",
+    "existential_primary_assignments_checked": 5376,
+    "max_arity": 7,
+    "solver": "independent standard-library DPLL with unit propagation"
+  },
+  "source": {
+    "commit": "7abb1d6fdafe1d75fe3e5cdfb48f7e07a8a76efd",
+    "mto_git_blob_sha1": "eb52038ee5a6708555078e3836415d16c07a352e",
+    "mto_sha256": "fb5b7cc56c2ea3bc02c0a9004e4a2915c1a3440e9e749e369da78bef14b82626",
+    "repository": "https://github.com/pysathq/pysat",
+    "version": "1.9.dev7"
+  }
+}

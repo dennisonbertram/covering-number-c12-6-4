@@ -1,0 +1,50 @@
+{
+  "case_cnf_sha256": "9931903d3264e7d2fb91f32e9d65b2b297bbccf1d553fa4bbabb3b00c2e42761",
+  "case_id": "link_orbit_175",
+  "case_index": 175,
+  "drat": {
+    "compressed_bytes": 6439457,
+    "compressed_path": "proofs/link_orbit_175.drat.zst",
+    "compressed_sha256": "39067c0c48763e424e5d7033aa32e3240e34725bffd3872f098e80ba1a65bb4b",
+    "raw_bytes": 30504036,
+    "raw_sha256": "d70c9f8fcde61ac225dd9789b8fe47f184298b5cee34343eb34974b71baeb9a6"
+  },
+  "logs": {
+    "cake-lpr": {
+      "bytes": 46,
+      "path": "logs/link_orbit_175.cake-lpr.log",
+      "sha256": "303059eac62a7bf14bb9a9e06d4f63d59acd8fc112ec678346ee94cc139cc5ee",
+      "success_marker": "s VERIFIED UNSAT"
+    },
+    "drat-trim": {
+      "bytes": 418,
+      "path": "logs/link_orbit_175.drat-trim.log",
+      "sha256": "ec03bccf37b958808aaa7ab43266dc6e698801e0b4a66c8c57db9c12c6e6565f",
+      "success_marker": "s VERIFIED"
+    },
+    "lrat-check": {
+      "bytes": 245,
+      "path": "logs/link_orbit_175.lrat-check.log",
+      "sha256": "c49f7b4278c4ddb39afa19c5d5e3ffe30638a26495874f1f63aea077f73a0f0f",
+      "success_marker": "c VERIFIED"
+    },
+    "solve": {
+      "bytes": 45,
+      "path": "logs/link_orbit_175.solve.log",
+      "sha256": "c6852366e585c730132d38f59684e6153b22a313c7224132f173ad1a0124d16a",
+      "success_marker": "s UNSATISFIABLE"
+    }
+  },
+  "lrat": {
+    "compressed_bytes": 1273443,
+    "compressed_path": "lrat/link_orbit_175.lrat.zst",
+    "compressed_sha256": "f74eb39f0673f7da23eb06c29b73ee2116ad54d0d32249460794dd4c8848ca1a",
+    "raw_bytes": 6380444,
+    "raw_sha256": "eeb6e66ac4e8e488983bdb7f6b826e1438bc6ec2cd66534d0f609bebc0c431a3"
+  },
+  "model_version": "c12-fixed-link-proof-artifacts-v1",
+  "receipt_sha256": "464edec2484c8577020b2bb38f226cca723302fe8ad1e591d5de9a83f0f1a9fd",
+  "root_sha256": "ebd661c12489af93813ec309a3d7d495654cb27770c2d1779087360ff165dcb3",
+  "source_manifest_sha256": "d8b6d765c5b9f237633bd879f18b07daa98cfa1ed1b1f5d264d99e279a48fcd2",
+  "status": "VERIFIED_UNSAT"
+}

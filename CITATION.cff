@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this proof or its certificates, please cite this repository."
+title: "A computer-assisted determination of the covering number C(12,6,4)"
+type: software
+authors:
+  - family-names: "Bertram"
+    given-names: "Dennison"
+repository-code: "https://github.com/dennisonbertram/covering-number-c12-6-4"
+url: "https://github.com/dennisonbertram/covering-number-c12-6-4"
+version: "1.0.0"
+date-released: "2026-07-24"
+license: MIT
+keywords:
+  - covering designs
+  - combinatorics
+  - SAT
+  - DRAT
+  - LRAT
