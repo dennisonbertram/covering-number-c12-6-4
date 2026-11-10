@@ -106,6 +106,12 @@ hashes. The release also includes the exact macOS Arm64 C and CakeML checker
 binaries used for the frozen replay; the verifier enforces their byte
 identities. No solver result is used without a successful independent replay.
 
+## Cited by
+
+- arXiv:2607.23766: Krug, "The covering number C(12, 6, 4) is 41".
+- arXiv:2610.31696: Requeijo, "Links of minimum degree and exact covering
+  numbers" (reference [2]).
+
 ## Novelty scope
 
 At the publication-time refresh on 2026-07-24, the La Jolla Covering
